@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
-    <background android:drawable="@drawable/logo_pwa" />
-    <foreground android:drawable="@drawable/logo_pwa" />
-    <monochrome android:drawable="@drawable/logo_pwa" />
+    <background android:drawable="@drawable/warna" />
+    <foreground android:drawable="@drawable/warna" />
+    <monochrome android:drawable="@drawable/warna" />
 </adaptive-icon>

@@ -2,6 +2,7 @@ package com.compro.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -10,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     WebView myWeb;
 
+    @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         myWeb = findViewById(R.id.myWeb);
         myWeb.getSettings().setJavaScriptEnabled(true);
         myWeb.setWebViewClient(new WebViewClient());
-        myWeb.loadUrl("https://compro.anantafatur.dev/");
+        myWeb.loadUrl("https://app.zentra.pw/");
     }
 }
 
