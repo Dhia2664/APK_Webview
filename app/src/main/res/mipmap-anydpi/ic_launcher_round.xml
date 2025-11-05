@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
-    <background android:drawable="@drawable/warna" />
-    <foreground android:drawable="@drawable/warna" />
-    <monochrome android:drawable="@drawable/warna" />
+    <background android:drawable="@drawable/rounded_margin_warna_bg_ireng" />
+    <foreground android:drawable="@drawable/rounded_margin_warna_bg_ireng" />
+    <monochrome android:drawable="@drawable/rounded_margin_warna_bg_ireng" />
 </adaptive-icon>
